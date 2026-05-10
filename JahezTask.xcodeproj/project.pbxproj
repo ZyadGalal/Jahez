@@ -36,9 +36,22 @@
 		32B074A02FACBE7B00FFE724 /* JahezTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JahezTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3233F1602FB0ABD20076794A /* Exceptions for "JahezTask" folder in "JahezTask" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 32B074882FACBE7900FFE724 /* JahezTask */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		32B0748B2FACBE7900FFE724 /* JahezTask */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3233F1602FB0ABD20076794A /* Exceptions for "JahezTask" folder in "JahezTask" target */,
+			);
 			path = JahezTask;
 			sourceTree = "<group>";
 		};
@@ -417,7 +430,7 @@
 				DEVELOPMENT_TEAM = MLXYZ7TJ5Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = JahezTask/info.plist;
+				INFOPLIST_FILE = JahezTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,7 +441,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "come-zyad.JahezTask";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyad.JahezTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -454,7 +467,7 @@
 				DEVELOPMENT_TEAM = MLXYZ7TJ5Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = JahezTask/info.plist;
+				INFOPLIST_FILE = JahezTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -465,7 +478,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "come-zyad.JahezTask";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyad.JahezTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

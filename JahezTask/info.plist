@@ -2,11 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>API_KEY</key>
+	<string>5cb1ed820209aa65dc0ca0788925ba9d</string>
 	<key>BASE_URL</key>
 	<string>https://api.themoviedb.org/3/</string>
 	<key>BEARER_TOKEN</key>
 	<string>eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1Y2IxZWQ4MjAyMDlhYTY1ZGMwY2EwNzg4OTI1YmE5ZCIsIm5iZiI6MTc3ODE1OTg4Ni41MDU5OTk4LCJzdWIiOiI2OWZjOTEwZWQ1MWU1ZTM0MmJlZDJlODMiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.Zn01w9JJ5bTF0pbL471jxBQLWdcZO5C_h-zcPEvsYsc</string>
-	<key>API_KEY</key>
-	<string>5cb1ed820209aa65dc0ca0788925ba9d</string>
 </dict>
 </plist>
