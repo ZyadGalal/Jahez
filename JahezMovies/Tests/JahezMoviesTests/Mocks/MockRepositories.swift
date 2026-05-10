@@ -12,8 +12,8 @@ final class MockMoviesRepository: MoviesRepository {
     private let movieDetailsResult: Result<MovieDetailsEntity, Error>
 
     init(
-        trendingMoviesResult: Result<MoviesPageEntity, Error> = .failure(DomainError.general(message: "not stubbed")),
-        movieDetailsResult: Result<MovieDetailsEntity, Error> = .failure(DomainError.general(message: "not stubbed"))
+        trendingMoviesResult: Result<MoviesPageEntity, Error> = .failure(MockErrors.general(message: "not stubbed")),
+        movieDetailsResult: Result<MovieDetailsEntity, Error> = .failure(MockErrors.general(message: "not stubbed"))
     ) {
         self.trendingMoviesResult = trendingMoviesResult
         self.movieDetailsResult = movieDetailsResult

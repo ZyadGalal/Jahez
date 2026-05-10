@@ -36,7 +36,7 @@ public final class DefaultMoviesRepository: MoviesRepository, @unchecked Sendabl
             ) {
                 return cached
             }
-            throw ErrorMapper.map(apiError)
+            throw apiError
         }
     }
 
@@ -57,7 +57,7 @@ public final class DefaultMoviesRepository: MoviesRepository, @unchecked Sendabl
             ) {
                 return cached
             }
-            throw ErrorMapper.map(apiError)
+            throw apiError
         }
     }
 

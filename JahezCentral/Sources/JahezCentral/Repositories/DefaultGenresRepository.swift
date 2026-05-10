@@ -31,7 +31,7 @@ public final class DefaultGenresRepository: GenresRepository, @unchecked Sendabl
             if let cached = await storage.read([GenreEntity].self, forKey: Self.genresKey), !cached.isEmpty {
                 return cached
             }
-            throw ErrorMapper.map(apiError)
+            throw apiError
         }
     }
 }

@@ -36,7 +36,7 @@ final class MoviesDetailsModelTests: XCTestCase {
 
     func testLoadFail() async throws {
         // Given
-        let error = DomainError.general(message: "errorMessage")
+        let error = MockErrors.general(message: "errorMessage")
         let mockUseCase = MockFetchMovieDetailsUseCase(result: .failure(error))
         viewModel = MovieDetailsViewModel(movieID: 100,
                                           useCase: mockUseCase)
@@ -52,7 +52,7 @@ final class MoviesDetailsModelTests: XCTestCase {
         
         // Then
         let unwrappedStates = try XCTUnwrap(states)
-        XCTAssertEqual(error.errorDescription, unwrappedStates.last?.errorMessage)
+        XCTAssertEqual(error.localizedDescription, unwrappedStates.last?.errorMessage)
     }
 }
 
