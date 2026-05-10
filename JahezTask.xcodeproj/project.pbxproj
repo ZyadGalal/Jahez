@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		32B076232FACBE7900FFE724 /* JahezData in Frameworks */ = {isa = PBXBuildFile; productRef = 32B076242FACBE7900FFE724 /* JahezData */; };
+		32B076252FACBE7900FFE724 /* JahezDomain in Frameworks */ = {isa = PBXBuildFile; productRef = 32B076262FACBE7900FFE724 /* JahezDomain */; };
+		32B076272FACBE7900FFE724 /* JahezCentral in Frameworks */ = {isa = PBXBuildFile; productRef = 32B076282FACBE7900FFE724 /* JahezCentral */; };
+		32B076292FACBE7900FFE724 /* JahezMovies in Frameworks */ = {isa = PBXBuildFile; productRef = 32B0762A2FACBE7900FFE724 /* JahezMovies */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		32B074972FACBE7B00FFE724 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +59,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32B076232FACBE7900FFE724 /* JahezData in Frameworks */,
+				32B076252FACBE7900FFE724 /* JahezDomain in Frameworks */,
+				32B076272FACBE7900FFE724 /* JahezCentral in Frameworks */,
+				32B076292FACBE7900FFE724 /* JahezMovies in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +123,10 @@
 			);
 			name = JahezTask;
 			packageProductDependencies = (
+				32B076242FACBE7900FFE724 /* JahezData */,
+				32B076262FACBE7900FFE724 /* JahezDomain */,
+				32B076282FACBE7900FFE724 /* JahezCentral */,
+				32B0762A2FACBE7900FFE724 /* JahezMovies */,
 			);
 			productName = JahezTask;
 			productReference = 32B074892FACBE7900FFE724 /* JahezTask.app */;
@@ -195,6 +210,12 @@
 			);
 			mainGroup = 32B074802FACBE7900FFE724;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				32B0762C2FACBE7900FFE724 /* XCLocalSwiftPackageReference "JahezData" */,
+				32B0762D2FACBE7900FFE724 /* XCLocalSwiftPackageReference "JahezDomain" */,
+				32B0762E2FACBE7900FFE724 /* XCLocalSwiftPackageReference "JahezCentral" */,
+				32B0762F2FACBE7900FFE724 /* XCLocalSwiftPackageReference "JahezMovies" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 32B0748A2FACBE7900FFE724 /* Products */;
 			projectDirPath = "";
@@ -400,6 +421,7 @@
 				DEVELOPMENT_TEAM = MLXYZ7TJ5Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JahezTask/info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -413,6 +435,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "come-zyad.JahezTask";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -432,6 +458,7 @@
 				DEVELOPMENT_TEAM = MLXYZ7TJ5Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JahezTask/info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -445,6 +472,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "come-zyad.JahezTask";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -578,6 +609,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		32B0762C2FACBE7900FFE724 /* XCLocalSwiftPackageReference "JahezData" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = JahezData;
+		};
+		32B0762D2FACBE7900FFE724 /* XCLocalSwiftPackageReference "JahezDomain" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = JahezDomain;
+		};
+		32B0762E2FACBE7900FFE724 /* XCLocalSwiftPackageReference "JahezCentral" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = JahezCentral;
+		};
+		32B0762F2FACBE7900FFE724 /* XCLocalSwiftPackageReference "JahezMovies" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = JahezMovies;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		32B076242FACBE7900FFE724 /* JahezData */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 32B0762C2FACBE7900FFE724 /* XCLocalSwiftPackageReference "JahezData" */;
+			productName = JahezData;
+		};
+		32B076262FACBE7900FFE724 /* JahezDomain */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 32B0762D2FACBE7900FFE724 /* XCLocalSwiftPackageReference "JahezDomain" */;
+			productName = JahezDomain;
+		};
+		32B076282FACBE7900FFE724 /* JahezCentral */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 32B0762E2FACBE7900FFE724 /* XCLocalSwiftPackageReference "JahezCentral" */;
+			productName = JahezCentral;
+		};
+		32B0762A2FACBE7900FFE724 /* JahezMovies */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 32B0762F2FACBE7900FFE724 /* XCLocalSwiftPackageReference "JahezMovies" */;
+			productName = JahezMovies;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 32B074812FACBE7900FFE724 /* Project object */;
 }
