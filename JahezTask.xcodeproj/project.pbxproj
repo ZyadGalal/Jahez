@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32B076232FACBE7900FFE724 /* JahezData in Frameworks */ = {isa = PBXBuildFile; productRef = 32B076242FACBE7900FFE724 /* JahezData */; };
-		32B076252FACBE7900FFE724 /* JahezDomain in Frameworks */ = {isa = PBXBuildFile; productRef = 32B076262FACBE7900FFE724 /* JahezDomain */; };
-		32B076272FACBE7900FFE724 /* JahezCentral in Frameworks */ = {isa = PBXBuildFile; productRef = 32B076282FACBE7900FFE724 /* JahezCentral */; };
-		32B076292FACBE7900FFE724 /* JahezMovies in Frameworks */ = {isa = PBXBuildFile; productRef = 32B0762A2FACBE7900FFE724 /* JahezMovies */; };
+		3233F12E2FB0ABD20076794A /* JahezCentral in Frameworks */ = {isa = PBXBuildFile; productRef = 3233F12D2FB0ABD20076794A /* JahezCentral */; };
+		3233F1302FB0ABD20076794A /* JahezData in Frameworks */ = {isa = PBXBuildFile; productRef = 3233F12F2FB0ABD20076794A /* JahezData */; };
+		3233F1322FB0ABD20076794A /* JahezDomain in Frameworks */ = {isa = PBXBuildFile; productRef = 3233F1312FB0ABD20076794A /* JahezDomain */; };
+		3233F1342FB0ABD20076794A /* JahezMovies in Frameworks */ = {isa = PBXBuildFile; productRef = 3233F1332FB0ABD20076794A /* JahezMovies */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,10 +59,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32B076232FACBE7900FFE724 /* JahezData in Frameworks */,
-				32B076252FACBE7900FFE724 /* JahezDomain in Frameworks */,
-				32B076272FACBE7900FFE724 /* JahezCentral in Frameworks */,
-				32B076292FACBE7900FFE724 /* JahezMovies in Frameworks */,
+				3233F1342FB0ABD20076794A /* JahezMovies in Frameworks */,
+				3233F1322FB0ABD20076794A /* JahezDomain in Frameworks */,
+				3233F12E2FB0ABD20076794A /* JahezCentral in Frameworks */,
+				3233F1302FB0ABD20076794A /* JahezData in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,10 +123,10 @@
 			);
 			name = JahezTask;
 			packageProductDependencies = (
-				32B076242FACBE7900FFE724 /* JahezData */,
-				32B076262FACBE7900FFE724 /* JahezDomain */,
-				32B076282FACBE7900FFE724 /* JahezCentral */,
-				32B0762A2FACBE7900FFE724 /* JahezMovies */,
+				3233F12D2FB0ABD20076794A /* JahezCentral */,
+				3233F12F2FB0ABD20076794A /* JahezData */,
+				3233F1312FB0ABD20076794A /* JahezDomain */,
+				3233F1332FB0ABD20076794A /* JahezMovies */,
 			);
 			productName = JahezTask;
 			productReference = 32B074892FACBE7900FFE724 /* JahezTask.app */;
@@ -211,10 +211,6 @@
 			mainGroup = 32B074802FACBE7900FFE724;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				32B0762C2FACBE7900FFE724 /* XCLocalSwiftPackageReference "JahezData" */,
-				32B0762D2FACBE7900FFE724 /* XCLocalSwiftPackageReference "JahezDomain" */,
-				32B0762E2FACBE7900FFE724 /* XCLocalSwiftPackageReference "JahezCentral" */,
-				32B0762F2FACBE7900FFE724 /* XCLocalSwiftPackageReference "JahezMovies" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 32B0748A2FACBE7900FFE724 /* Products */;
@@ -610,44 +606,21 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		32B0762C2FACBE7900FFE724 /* XCLocalSwiftPackageReference "JahezData" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = JahezData;
-		};
-		32B0762D2FACBE7900FFE724 /* XCLocalSwiftPackageReference "JahezDomain" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = JahezDomain;
-		};
-		32B0762E2FACBE7900FFE724 /* XCLocalSwiftPackageReference "JahezCentral" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = JahezCentral;
-		};
-		32B0762F2FACBE7900FFE724 /* XCLocalSwiftPackageReference "JahezMovies" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = JahezMovies;
-		};
-/* End XCLocalSwiftPackageReference section */
-
 /* Begin XCSwiftPackageProductDependency section */
-		32B076242FACBE7900FFE724 /* JahezData */ = {
+		3233F12D2FB0ABD20076794A /* JahezCentral */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 32B0762C2FACBE7900FFE724 /* XCLocalSwiftPackageReference "JahezData" */;
-			productName = JahezData;
-		};
-		32B076262FACBE7900FFE724 /* JahezDomain */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 32B0762D2FACBE7900FFE724 /* XCLocalSwiftPackageReference "JahezDomain" */;
-			productName = JahezDomain;
-		};
-		32B076282FACBE7900FFE724 /* JahezCentral */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 32B0762E2FACBE7900FFE724 /* XCLocalSwiftPackageReference "JahezCentral" */;
 			productName = JahezCentral;
 		};
-		32B0762A2FACBE7900FFE724 /* JahezMovies */ = {
+		3233F12F2FB0ABD20076794A /* JahezData */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 32B0762F2FACBE7900FFE724 /* XCLocalSwiftPackageReference "JahezMovies" */;
+			productName = JahezData;
+		};
+		3233F1312FB0ABD20076794A /* JahezDomain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = JahezDomain;
+		};
+		3233F1332FB0ABD20076794A /* JahezMovies */ = {
+			isa = XCSwiftPackageProductDependency;
 			productName = JahezMovies;
 		};
 /* End XCSwiftPackageProductDependency section */
