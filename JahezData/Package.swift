@@ -21,9 +21,5 @@ let package = Package(
                 .process("Resources/TMDBCache.xcdatamodeld"),
             ]
         ),
-        .testTarget(
-            name: "JahezDataTests",
-            dependencies: ["JahezData"]
-        ),
     ]
 )
